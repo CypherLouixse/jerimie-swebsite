@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bags</title>
+    
+</head>
+<style>
+ html {
+  background-image: url(https://i.pinimg.com/236x/0e/17/1d/0e171dde89bdc3a56a0f3fed5e2958b5.jpg);
+  background-size: cover;
+  max-height: 100%;
+  height: 100%;
+}
+
+header {
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: var(--black);
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .navbar a {
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  margin-left: -3rem;
+   
+}
+header .navbar a:hover {
+  color: blue;
+}
+
+#menu-bar {
+  font-size: 3rem;
+  color: rgb(247, 243, 243);
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgb(247, 243, 243);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.btn{
+  width: 150px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid rgba(10, 210, 245, 0.911);
+  transition: background-color 1s;
+  font-weight: bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn:hover{
+  background-color: rgba(10, 210, 245, 0.911);
+}
+ 
+
+</style>
+<body>
+    
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="index.html#vendor"><button class="btn">HOME</button></a>
+   </nav>
+    </header>
+<br><br><br><br> <br><br>
+    <id class="clients">
+        <div class="contents">
+            <center>
+         
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.image:hover{
+    transform:scale(1.5) ;
+    z-index: 1;
+}
+.image{
+    transition: 1s;
+}
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouliere-50-k45-travel--M59337_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br>'KEEPALL BANDOULIERE 50'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱262,550,00</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-tote-other-leathers-highlights--M59688_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br> 'KEEPALL TOTE'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱95,580,00</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-new-cabas-zippe-gm-g66-bags--M45379_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br> 'NEW CABAS ZIPPE GM'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱150,800,00</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-sac-plat-cross-crocodilien-mat-bags--N80780_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton<br> 'SAC PLAT CROSS'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱144,960,00</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-christopher-mm-monogram-other-bags--M58756_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br>'CHRISTOPER MM'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱194,280,00</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lvxnba-shoes-box-backpack-monogram-other-bags--M45784_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br>'LVXNBA Shoes Back Pack'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱47,250,00</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-backpack-trio-monogram-eclipse-canvas-bags--M45538_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br>'BACKPACK TRIO'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱193,700,00</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-christopher-mm-monogram-macassar-canvas-travel--M43735_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+<h1>Louis Vuitton <br>'CHRISTOPER MM'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱194,280,00</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-litter-bag-monogram-other-bags--M80815_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br>'LITTER BAG'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱141,780,00</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+    </div>
+    </div>
+
+<div class="card">
+
+    <div class="image">
+       <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-bandouli%C3%A8re-40-other-leathers-bags--M57845_PM2_Front%20view.png?wid=656&hei=656">
+    </div>
+    <div class="title">
+     <h1>Louis Vuitton <br> 'KEEPALL BANDOULIÈRE 40'</h1>
+    </div>
+    <div class="des">
+     <p>Retail: ₱262,560,00</p>
+     <button onclick="fun()">Buy</BUTTON>
+      <button onclick="happy()">Add to Cart</BUTTON>
+       </div>
+       </div>
+
+    <div class="card">
+
+        <div class="image">
+           <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-clutch-box-monogram-eclipse-canvas-bags--M20251_PM2_Front%20view.png?wid=656&hei=656">
+        </div>
+        <div class="title">
+         <h1>Louis Vuitton <br> 'CLUTCH BOX'</h1>
+        </div>
+        <div class="des">
+         <p>Retail: ₱336,100,00</p>
+         <button onclick="fun()">Buy</BUTTON>
+            <button onclick="happy()">Add to Cart</BUTTON>
+             </div>
+             </div>
+
+        <div class="card">
+
+            <div class="image">
+               <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-city-keepall-monogram-other-bags--M45757_PM2_Front%20view.png?wid=656&hei=656">
+            </div>
+            <div class="title">
+             <h1>Louis Vuitton <br>'CITY KEEPALL'</h1>
+            </div>
+            <div class="des">
+             <p>Retail: ₱202,170,00</p>
+             <button onclick="fun()">Buy</BUTTON>
+               <button onclick="happy()">Add to Cart</BUTTON>
+                </div>
+                </div>
+
+            <div class="card">
+
+                <div class="image">
+                   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-robusto-briefcase-taiga-leather-bags--M30591_PM2_Front%20view.png?wid=656&hei=656">
+                </div>
+                <div class="title">
+                 <h1>Louis Vuitton <br>'ROBUSTO BRIEFCASE'</h1>
+                </div>
+                <div class="des">
+                 <p>Retail: ₱194,280,00</p>
+                 <button onclick="fun()">Buy</BUTTON>
+                  <button onclick="happy()">Add to Cart</BUTTON>
+                   </div>
+                   </div>
+
+                <div class="card">
+
+                    <div class="image">
+                       <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-soft-trunk-briefcase-monogram-eclipse-canvas-bags--M44952_PM2_Front%20view.png?wid=656&hei=656">
+                    </div>
+                    <div class="title">
+                     <h1>Louis Vuitton <br> 'SOFT BRIEFCASE'</h1>
+                    </div>
+                    <div class="des">
+                     <p>Retail: ₱126,000,00</p>
+                     <button onclick="fun()">Buy</BUTTON>
+                     <button onclick="happy()">Add to Cart</BUTTON>
+                      </div>
+                      </div>
+
+                    <div class="card">
+
+                        <div class="image">
+                           <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neo-porte-documents-voyage-monogram-other-bags--M58755_PM2_Front%20view.png?wid=656&hei=656">
+                        </div>
+                        <div class="title">
+                         <h1>Louis Vuitton <br>'NEO PORTE DOCUMENTS VOYAGE'</h1>
+                        </div>
+                        <div class="des">
+                         <p>Retail: ₱110,270,00</p>
+                         <button onclick="fun()">Buy</BUTTON>
+                           <button onclick="happy()">Add to Cart</BUTTON>
+                            </div>
+                            </div>
+
+                        <div class="card">
+
+                            <div class="image">
+                               <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-porte-documents-voyage-pm--M52005_PM2_Front%20view.png?wid=456&hei=456">
+                            </div>
+                            <div class="title">
+                             <h1>Louis Vuitton <br> 'PORTE-DOCUMENTS VOYAGE PM'</h1>
+                            </div>
+                            <div class="des">
+                             <p>Retail: ₱101,870,00</p>
+                            <button onclick="fun()">Buy</BUTTON>
+                            <button onclick="happy()">Add to Cart</BUTTON>
+                            </div>
+                            </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+      <title>alert box</title>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+      <script>
+         function fun()
+         {
+            swal("Thankyou for buying!", "You can now proceed for your payment.", "success");
+         }
+
+         function happy()
+         {
+            swal("Added to your Cart!", "Thankyou!", "success");
+         }
+
+         
+      </script>
+
+   </head>
+</html>

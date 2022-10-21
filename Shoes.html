@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+</head>
+<style>
+ html {
+  background-image: url(https://www.itl.cat/pngfile/big/92-922745_mobile-hd-wallpaper-inspired-by-google-material-design.jpg);
+  background-size: cover;
+  max-height: 100%;
+  height: 100%;
+}
+
+header {
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: var(--black);
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .navbar a {
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  margin-left: -4rem;
+}
+header .navbar a:hover {
+  color: blue;
+}
+
+#menu-bar {
+  font-size: 3rem;
+  color: rgb(247, 243, 243);
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgb(247, 243, 243);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+.btn{
+  width: 150px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid rgba(248, 0, 0, 0.678);
+  transition: background-color 1s;
+  font-weight: bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn:hover{
+  background-color: rgba(248, 0, 0, 0.678);
+}
+
+.card{
+    font-weight: bolder;
+}
+
+
+</style>
+<body>
+    
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="index.html#vendor"><button class="btn">HOME</button></a>
+   </nav>
+    </header>
+<br><br><br><br> <br><br>
+    <id class="clients">
+        <div class="contents">
+            <center>
+               
+         
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.image:hover{
+    transform:scale(1.5) ;
+    z-index: 1;
+}
+.image{
+    transition: 1s;
+}
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/564x/b7/59/df/b759dfeaad19f67838435c23c766d3de.jpg">
+</div>
+<div class="title">
+ <h1>Nike Air Jordan 1 Union LA "Storm Blue"</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱45,000</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/736x/a0/b5/f3/a0b5f301b886e288f6eeab171864fd02.jpg">
+</div>
+<div class="title">
+ <h1>Nike Air Jordan 1 "Chicago OG"</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱55,000</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/564x/9d/99/33/9d9933390add75c085b91f709583fddd.jpg">
+</div>
+<div class="title">
+ <h1>Nike Air Jorda 4 "Breds"</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱60,200</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://wallpapercave.com/wp/wp6145728.jpg">
+</div>
+<div class="title">
+ <h1>Nike Air Jordan 1 "Obsidian"</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱35,100</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/564x/e2/96/8e/e2968e0e015e2586729735beee88cd98.jpg">
+</div>
+<div class="title">
+ <h1>Nike Air Jordan 4 "Off-White"</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱57,500</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/564x/f0/f7/1a/f0f71a4fac6d9c96b49f5f03bb73d0a9.jpg">
+</div>
+<div class="title">
+ <h1>Nike Dunk Low "Panda"</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱25,000</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/564x/85/9a/48/859a4864c0c338051f69bcfd4c574f32.jpg">
+</div>
+<div class="title">
+ <h1>Nike Dunk Low "Traviss Scott"</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱83,000</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/564x/80/27/08/80270884ee5bdc7e1ac711fc42de2f05.jpg">
+</div>
+<div class="title">
+ <h1>Nike Air Jordan 1 "Off-White UNC"</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱100,000</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://i.pinimg.com/564x/6a/86/8f/6a868fe6f945c9d380ed20814337a3b3.jpg">
+</div>
+<div class="title">
+ <h1>Nike Dunk Low "Ben & Jerry's Chunky Dunky"</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱35,000</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+
+<div class="card">
+
+    <div class="image">
+       <img src="https://i.pinimg.com/564x/85/e3/3f/85e33f374e2e62274564f289eabc15b2.jpg">
+    </div>
+    <div class="title">
+     <h1>Nike Air Jordan 6 "travis Scott Olive"</h1>
+    </div>
+    <div class="des">
+     <p>Retail: ₱78,000</p>
+     <button onclick="fun()">Buy</BUTTON>
+      <button onclick="happy()">Add to Cart</BUTTON>
+      </div>
+      </div>
+
+    <div class="card">
+
+        <div class="image">
+           <img src="https://i.pinimg.com/564x/d4/43/2b/d4432be9b0df99e39f93d6340e0ff961.jpg">
+        </div>
+        <div class="title">
+         <h1>Nike Air Jordan 4 "Travis Scott"</h1>
+        </div>
+        <div class="des">
+         <p>Retail: ₱55,000</p>
+         <button onclick="fun()">Buy</BUTTON>
+            <button onclick="happy()">Add to Cart</BUTTON>
+            </div>
+            </div>
+
+        <div class="card">
+
+            <div class="image">
+               <img src="https://i.pinimg.com/564x/15/11/ca/1511ca23af74b11a36529335d527fa40.jpg">
+       </div>
+            <div class="title">
+             <h1>Nike Dunk Low "Off-White Pine green"</h1>
+            </div>
+            <div class="des">
+             <p>Retail: ₱35,000</p>
+             <button onclick="fun()">Buy</BUTTON>
+               <button onclick="happy()">Add to Cart</BUTTON>
+               </div>
+               </div>
+
+            <div class="card">
+
+                <div class="image">
+                   <img src="https://i.pinimg.com/564x/af/34/3f/af343f5ced731bbe270306253f57c5ad.jpg">
+                </div>
+                <div class="title">
+                 <h1>Air Jordan 4 retro "Union La 'Off Noir' "</h1>
+                </div>
+                <div class="des">
+                 <p>Retail: ₱45,000</p>
+                 <button onclick="fun()">Buy</BUTTON>
+                  <button onclick="happy()">Add to Cart</BUTTON>
+                  </div>
+                  </div>
+
+                <div class="card">
+
+                    <div class="image">
+                       <img src="https://i.pinimg.com/564x/b7/5f/58/b75f58374a99c8f655d60cfc1eafacd2.jpg">
+                    </div>
+                    <div class="title">
+                     <h1>Nike Air Jordan 1 High "SBB 2.0"</h1>
+                    </div>
+                    <div class="des">
+                     <p>Retail: ₱85,000</p>
+                     <button onclick="fun()">Buy</BUTTON>
+                        <button onclick="happy()">Add to Cart</BUTTON>
+                        </div>
+                        </div>
+
+                    <div class="card">
+
+                        <div class="image">
+                           <img src="https://i.pinimg.com/564x/62/28/bb/6228bb48a4b0df982e669ced1cb01497.jpg">
+                        </div>
+                        <div class="title">
+                         <h1>Balenciaga Track "LED"</h1>
+                        </div>
+                        <div class="des">
+                         <p>Retail: ₱55,000</p>
+                         <button onclick="fun()">Buy</BUTTON>
+                           <button onclick="happy()">Add to Cart</BUTTON>
+                           </div>
+                           </div>
+
+                        <div class="card">
+
+                            <div class="image">
+                               <img src="https://i.pinimg.com/564x/2a/62/bd/2a62bd668d730b826bb694fc3bb1bfb5.jpg">
+                            </div>
+                            <div class="title">
+                             <h1>Nike Air Jordan 1 "Pine Green"</h1>
+                            </div>
+                            <div class="des">
+                             <p>Retail: ₱30,000</p>
+                             <button onclick="fun()">Buy</BUTTON>
+                              <button onclick="happy()">Add to Cart</BUTTON>
+                              </div>
+                              </div>
+
+                              <div class="card">
+
+                                 <div class="image">
+                                    <img src="https://sneakerbardetroit.com/wp-content/uploads/2022/02/Air-Jordan-1-KO-Syracuse-Orange-White-DO5047-801-Release-Date.jpeg">
+                                 </div>
+                                 <div class="title">
+                                  <h1>Nike Air Jordan 1 "KO Syracuse"</h1>
+                                 </div>
+                                 <div class="des">
+                                  <p>Retail: ₱7,595</p>
+                                  <button onclick="fun()">Buy</BUTTON>
+                                   <button onclick="happy()">Add to Cart</BUTTON>
+                                   </div>
+                                   </div>
+
+                                   <div class="card">
+
+                                    <div class="image">
+                                       <img src="https://sneakernews.com/wp-content/uploads/2019/11/air-jordan-1-high-bloodlines-555088_062-release-info-3.jpg">
+                                    </div>
+                                    <div class="title">
+                                     <h1>Nike Air Jordan 1 Retro OG "Bloodline"</h1>
+                                    </div>
+                                    <div class="des">
+                                     <p>Retail: ₱11,743</p>
+                                     <button onclick="fun()">Buy</BUTTON>
+                                      <button onclick="happy()">Add to Cart</BUTTON>
+                                      </div>
+                                      </div>
+
+                                      <div class="card">
+
+                                       <div class="image">
+                                          <img src="https://images.solecollector.com/complex/images/c_crop,h_1017,w_1807,x_100,y_699/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/kkhlbo2sddx9uzwj11lb/travis-scott-fragment-air-jordan-1-low-release-date-dm7866-140-pair">
+                                       </div>
+                                       <div class="title">
+                                        <h1>Nike Air Jordan 1 low "Travis Scott X Fragments"</h1>
+                                       </div>
+                                       <div class="des">
+                                        <p>Retail: ₱75,598</p>
+                                        <button onclick="fun()">Buy</BUTTON>
+                                         <button onclick="happy()">Add to Cart</BUTTON>
+                                         </div>
+                                         </div>
+
+                                         <div class="card">
+
+                                          <div class="image">
+                                             <img src="https://sneakernews.com/wp-content/uploads/2019/07/travis-scott-air-jordan-1-low-cq4277-001-5.jpg">
+                                          </div>
+                                          <div class="title">
+                                           <h1>Nike Air Jordan 1 low travis Scott "Mocha"</h1>
+                                          </div>
+                                          <div class="des">
+                                           <p>Retail: ₱100,810</p>
+                                           <button onclick="fun()">Buy</BUTTON>
+                                            <button onclick="happy()">Add to Cart</BUTTON>
+                                            </div>
+                                            </div>
+
+                                            <div class="card">
+
+                                             <div class="image">
+                                                <img src="https://images.solecollector.com/complex/images/c_crop,h_1125,w_2000,x_0,y_505/f_auto,fl_lossy,q_auto,w_1200/araytkrnlef8pebuoxpd/air-jordan-1-court-purple-release-date-555088-500-pair.jpg">
+                                             </div>
+                                             <div class="title">
+                                              <h1>Nike Air Jordan 1 Retro High OG "Court Purple 2.0"</h1>
+                                             </div>
+                                             <div class="des">
+                                              <p>Retail: ₱13,400</p>
+                                              <button onclick="fun()">Buy</BUTTON>
+                                               <button onclick="happy()">Add to Cart</BUTTON>
+                                               </div>
+                                               </div>
+                        
+                                               <div class="card">
+
+                                                <div class="image">
+                                                   <img src="https://images.solecollector.com/complex/images/fl_lossy,q_auto/c_crop,h_681,w_1200,x_0,y_296/c_scale,w_690,dpr_2.0/v1/epywungmlydttkn3nidl/air-jordan-1-not-for-resell-red">
+                                                </div>
+                                                <div class="title">
+                                                 <h1>Nike Air Jordan 1 Retro High OG "Not For Resale" Red</h1>
+                                                </div>
+                                                <div class="des">
+                                                 <p>Retail: ₱51,960</p>
+                                                 <button onclick="fun()">Buy</BUTTON>
+                                                  <button onclick="happy()">Add to Cart</BUTTON>
+                                                  </div>
+                                                  </div>
+                         
+                                                  <div class="card">
+
+                                                   <div class="image">
+                                                      <img src="https://sneakernews.com/wp-content/uploads/2019/02/travis-scott-jordan-1-CD4487-100-6.jpg">
+                                                   </div>
+                                                   <div class="title">
+                                                    <h1>Travis Scott x Jordan 1 Retro High OG 'Mocha'</h1>
+                                                   </div>
+                                                   <div class="des">
+                                                    <p>Retail: ₱89,720</p>
+                                                    <button onclick="fun()">Buy</BUTTON>
+                                                     <button onclick="happy()">Add to Cart</BUTTON>
+                                                     </div>
+                                                     </div>
+
+                                                     <div class="card">
+
+                                                      <div class="image">
+                                                         <img src="https://images.solecollector.com/complex/images/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/krpneyjrw0ya2qtfchyg/air-jordan-1-royal-2017-release-date-555088-007">
+                                                      </div>
+                                                      <div class="title">
+                                                       <h1>Nike Air Jordan 1 Retro High OG "Royal" 2017</h1>
+                                                      </div>
+                                                      <div class="des">
+                                                       <p>Retail: ₱23,790</p>
+                                                       <button onclick="fun()">Buy</BUTTON>
+                                                        <button onclick="happy()">Add to Cart</BUTTON>
+                                                        </div>
+                                                        </div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+      <title>alert box</title>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+      <script>
+         function fun()
+         {
+            swal("Thankyou for buying!", "You can now prepare for your payment.", "success");
+         }
+
+         function happy()
+         {
+            swal("Added to Cart!", "Thankyou!", "success");
+         }
+
+
+         
+      </script>
+
+   </head>
+</html>

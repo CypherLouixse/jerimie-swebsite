@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watches</title>
+</head>
+<style>
+ html {
+  background-image: url(https://images.unsplash.com/photo-1473081556163-2a17de81fc97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  max-height: 100%;
+  height: 100%;
+}
+
+header {
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: var(--black);
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .navbar a {
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  margin-left: -3rem;
+}
+header .navbar a:hover {
+  color: blue;
+}
+
+#menu-bar {
+  font-size: 3rem;
+  color: rgb(247, 243, 243);
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgb(247, 243, 243);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+.btn{
+  width: 150px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid #E59866;
+  transition: background-color 1s;
+  font-weight: bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn:hover{
+  background-color: #E59866;
+}
+ 
+</style>
+<body>
+    
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+          <a href="index.html#vendor"><button class="btn">HOME</button></a>
+   </nav>
+    </header>
+<br><br><br><br> <br><br>
+    <id class="clients">
+        <div class="contents">
+            <center>
+         
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+ }
+
+ p{
+   color: white;
+ }
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.image:hover{
+    transform:scale(1.5) ;
+    z-index: 1;
+}
+.image{
+    transition: 1s;
+}
+
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://content.rolex.com/dam/2022/bg/model-cover-lightbox-background-everose-landscape.png?impolicy=v6-model-feature&c1path=/dam/2022/upright-bba-with-shadow/m126711chnr-0002.png&sc1=0.65&c1x=506&c1y=-233&imwidth=1920">
+</div>
+<div class="title">
+ <h1>Rolex <br>'GMT-MASTER II'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱865,670</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://content.rolex.com/dam/2022/bg/model-cover-lightbox-background-steel-landscape.png?impolicy=v6-model-feature&c1path=/dam/2022/upright-bba-with-shadow/m226570-0001.png&sc1=0.65&c1x=506&c1y=-233&imwidth=1920">
+</div>
+<div class="title">
+ <h1>Rolex <br> 'EXPLORER II'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱519,400</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://content.rolex.com/dam/2022/bg/model-cover-lightbox-background-yellow-gold-landscape.png?impolicy=v6-model-feature&c1path=/dam/2022/upright-bba-with-shadow/m116508-0015.png&sc1=0.65&c1x=506&c1y=-233&imwidth=1920">
+</div>
+<div class="title">
+ <h1>Rolex <br> 'COSMOGRAPH DAYTONA'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱689,900</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://content.rolex.com/dam/2022/bg/model-cover-lightbox-background-steel-landscape.png?impolicy=v6-model-feature&c1path=/dam/2022/upright-bba-with-shadow/m126200-0020.png&sc1=0.65&c1x=506&c1y=-233&imwidth=1920">
+</div>
+<div class="title">
+ <h1>Rolex<br> 'DATEJUST 36'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱1,180,460</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://content.rolex.com/dam/2022/bg/model-cover-lightbox-background-yellow-gold-landscape.png?impolicy=v6-model-feature&c1path=/dam/2022/upright-bba-with-shadow/m128238-0069.png&sc1=0.65&c1x=506&c1y=-233&imwidth=1920">
+</div>
+<div class="title">
+ <h1>Rolex <br>'DAY-DATE 36T'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱865,670</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://content.rolex.com/dam/2022/bg/model-cover-lightbox-background-yellow-gold-landscape.png?impolicy=v6-model-feature&c1path=/dam/2022/upright-bba-with-shadow/m228398tbr-0036.png&sc1=0.65&c1x=506&c1y=-233&imwidth=1920">
+</div>
+<div class="title">
+ <h1>Rolex <br>'DAY-DATE 40'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱1,862,500</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://content.rolex.com/dam/2022/bg/model-cover-lightbox-background-steel-landscape.png?impolicy=v6-model-feature&c1path=/dam/2022/upright-bba-with-shadow/m128236-0008.png&sc1=0.65&c1x=506&c1y=-233&imwidth=1920">
+</div>
+<div class="title">
+ <h1>Rolex <br>'DAY-DATE 36'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱865,670</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://content.rolex.com/dam/2022/bg/model-cover-lightbox-background-steel-landscape.png?impolicy=v6-model-feature&c1path=/dam/2022/upright-bba-with-shadow/m126300-0018.png&sc1=0.65&c1x=506&c1y=-233&imwidth=1920">
+</div>
+<div class="title">
+<h1>Rolex <br>'DATEJUST 41'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱490,540</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR003700.00/importer/standup.png.transform.approductmaintabwide.png">
+</div>
+<div class="title">
+ <h1>Audemars Piguet <br>'ROYAL OAK'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱3,831,550</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+
+<div class="card">
+
+    <div class="image">
+       <img src="https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009321.00/importer/standup.png.transform.approductmaintabwide.png">
+    </div>
+    <div class="title">
+     <h1>Audemars Piguet <br> 'ROYAL OAK'</h1>
+    </div>
+    <div class="des">
+     <p>Retail: ₱4,215,107</p>
+     <button onclick="fun()">Buy</BUTTON>
+      <button onclick="happy()">Set an appointment</BUTTON>
+      </div>
+      </div>
+
+    <div class="card">
+
+        <div class="image">
+           <img src="https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR010363AA/importer/standup.png.transform.approductmaintabwide.png">
+        </div>
+        <div class="title">
+         <h1>Audemars Piguet <br> 'ROYAL OAK'</h1>
+        </div>
+        <div class="des">
+         <p>Retail: ₱4,073,379</p>
+         <button onclick="fun()">Buy</BUTTON>
+            <button onclick="happy()">Set an appointment</BUTTON>
+            </div>
+            </div>
+
+        <div class="card">
+
+            <div class="image">
+               <img src="https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009792.00/importer/standup.png.transform.approductmaintabwide.png">
+            </div>
+            <div class="title">
+             <h1>Audemars Piguet <br>'ROYAL OAK'</h1>
+            </div>
+            <div class="des">
+             <p>Retail: ₱4,238,650</p>
+             <button onclick="fun()">Buy</BUTTON>
+               <button onclick="happy()">Set an appointment</BUTTON>
+               </div>
+               </div>
+
+            <div class="card">
+
+                <div class="image">
+                   <img src="https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR009591.01/importer/standup.png.transform.approductmaintabwide.png">
+                </div>
+                <div class="title">
+                 <h1>Audemars Piguet <br>'ROYAL OAK OFFSHORE'</h1>
+                </div>
+                <div class="des">
+                 <p>Retail: ₱4,199,390</p>
+                 <button onclick="fun()">Buy</BUTTON>
+                  <button onclick="happy()">Set an appointment</BUTTON>
+                  </div>
+                  </div>
+
+                <div class="card">
+
+                    <div class="image">
+                       <img src="https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR008800.00/importer/standup.png.transform.approductmaintabwide.png">
+                    </div>
+                    <div class="title">
+                     <h1>Audemars Piguet <br> 'ROYAL OAK OFFSHORE'</h1>
+                    </div>
+                    <div class="des">
+                     <p>Retail: ₱1,574,918</p>
+                    <button onclick="fun()">Buy</BUTTON>
+                     <button onclick="happy()">Set an appointment</BUTTON>
+                     </div>
+                     </div>
+
+                    <div class="card">
+
+                        <div class="image">
+                           <img src="https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR008954.00/importer/standup.png.transform.approductmaintabwide.png">
+                        </div>
+                        <div class="title">
+                         <h1>Audemars Piguet <br>'ROYAL OAK OFFSHORE'</h1>
+                        </div>
+                        <div class="des">
+                         <p>Retail: ₱2,493,175</p>
+                         <button onclick="fun()">Buy</BUTTON>
+                           <button onclick="happy()">Set an appointment</BUTTON>
+                           </div>
+                           </div>
+
+                        <div class="card">
+
+                            <div class="image">
+                               <img src="https://www.audemarspiguet.com/content/dam/ap/com/products/watches/MTR010084.00/importer/standup.png.transform.approductmaintabwide.png">
+                            </div>
+                            <div class="title">
+                             <h1>Audemars Piguet <br> 'ROYAL OAK OFFSHORE'</h1>
+                            </div>
+                            <div class="des">
+                             <p>Retail: ₱5,711,130</p>
+                             <button onclick="fun()">Buy</BUTTON>
+                              <button onclick="happy()">Set an appointment</BUTTON>
+                              </div>
+                              </div>
+                            
+
+
+
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+      <title>alert box</title>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+      <script>
+         function fun()
+         {
+            swal("Thankyou for buying!", "You can now proceed for your payment.", "success");
+         }
+
+         function happy()
+         {
+            swal("Appointmet Approved!", "Please contact our shop!", "success");
+         }
+
+         
+      </script>
+
+   </head>
+</html>

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pants & Shorts</title>
+    
+</head>
+<style>
+ html {
+  background-image: url(https://i.pinimg.com/1200x/4a/f5/10/4af510563b5a94066f90f8963004d274.jpg);
+  background-size: cover;
+  max-height: 100%;
+  height: 100%;
+}
+
+header {
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: var(--black);
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .navbar a {
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  margin-left: -3rem;
+   
+}
+header .navbar a:hover {
+  color: blue;
+}
+
+#menu-bar {
+  font-size: 3rem;
+  color: rgb(247, 243, 243);
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgb(247, 243, 243);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.btn{
+  width: 150px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid  rgba(0, 248, 153, 0.521);
+  transition: background-color 1s;
+  font-weight: bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn:hover{
+  background-color:  rgba(0, 248, 153, 0.521);
+}
+ 
+
+</style>
+<body>
+    
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="Clothes.html"><button class="btn">Back</button></a>
+   </nav>
+    </header>
+<br><br><br><br> <br><br>
+    <id class="clients">
+        <div class="contents">
+            <center>
+         
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+p{
+   font-size: 13px;
+}
+
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.image:hover{
+    transform:scale(1.5) ;
+    z-index: 1;
+}
+.image{
+    transition: 1s;
+}
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-damier-spread-classic-pants-ready-to-wear--HNP04WMV9739_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br>'DAMIER SPREAD CLASSIC PANTS'</h1>
+</div>
+<div class="des">
+ <p>(BUY AS PAIR)</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-archive-monogram-drawstring-pants-ready-to-wear--HNFP6WIQ5651_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br> 'ARCHIVE MONOGRAM DRAWSTRING PANTS'</h1>
+</div>
+<div class="des">
+ <p>(BUY AS PAIR)</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lateral-split-pants-ready-to-wear--HMP84WXHX719_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br> 'LATERAL SPLIT PANTS'</h1>
+</div>
+<div class="des">
+ <p>(BUY AS PAIR)</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-karakoram-workwear-pants-ready-to-wear--HNP01WTTX900_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton<br> 'KARAKORAM WORKWEAR PANTS'</h1>
+</div>
+<div class="des">
+ <p>(BUY AS PAIR)</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-baggy-denim-pants-ready-to-wear--HMD75WUZD650_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br>'BAGGY DENIM PANTST'</h1>
+</div>
+<div class="des">
+ <p>(BUY AS PAIR)</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-wax-pyjama-pants-ready-to-wear--HLP60WFT4MU1_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br>'LV WAX PYJAMA PANTST'</h1>
+</div>
+<div class="des">
+ <p>(BUY AS PAIR)</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-tie-dye-embroidered-cigaret-pants-ready-to-wear--HMFP9WDZ3900_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br>'TIE DYE EMBROIDERED CIGARET PANTS'</h1>
+</div>
+<div class="des">
+ <p>(BUY AS PAIR)</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-slim-jeans-ready-to-wear--HHD21WQJQ504_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+<h1>Louis Vuitton <br>'MONOGRAM SLIM JEANST'</h1>
+</div>
+<div class="des">
+ <p>(BUY AS PAIR)</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-skater-tailoring-shorts-ready-to-wear--HLP21WTTX652_PM2_Front%20view.png?wid=656&hei=656">
+</div>
+<div class="title">
+ <h1>Louis Vuitton <br>'SKATER TAILORING SHORTS'</h1>
+</div>
+<div class="des">
+ <p>(BUY AS PAIR)</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to cart</BUTTON>
+   </div>
+   </div>
+
+<div class="card">
+
+    <div class="image">
+       <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-classic-shorts-ready-to-wear--HGP45WB35902_PM2_Front%20view.png?wid=656&hei=656">
+    </div>
+    <div class="title">
+     <h1>Louis Vuitton <br> 'CLASSIC SHORTS'</h1>
+    </div>
+    <div class="des">
+     <p>(BUY AS PAIR)</p>
+     <button onclick="fun()">Buy</BUTTON>
+      <button onclick="happy()">Add to cart</BUTTON>
+      </div>
+      </div>
+
+    <div class="card">
+
+        <div class="image">
+           <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lvse-soft-cargo-shorts-ready-to-wear--HNP41WNC3900_PM2_Front%20view.png?wid=656&hei=656">
+        </div>
+        <div class="title">
+         <h1>Louis Vuitton <br> 'LVSE SOFT CARGO SHORTS'</h1>
+        </div>
+        <div class="des">
+         <p>(BUY AS PAIR)</p>
+         <button onclick="fun()">Buy</BUTTON>
+            <button onclick="happy()">Add to cart</BUTTON>
+            </div>
+            </div>
+        <div class="card">
+
+            <div class="image">
+               <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-damier-tailored-shorts-ready-to-wear--HNFP2WI50651_PM2_Front%20view.png?wid=656&hei=656">
+            </div>
+            <div class="title">
+             <h1>Louis Vuitton <br>'DAMIER TAILORED SHORTS'</h1>
+            </div>
+            <div class="des">
+             <p>(BUY AS PAIR)</p>
+             <button onclick="fun()">Buy</BUTTON>
+               <button onclick="happy()">Add to cart</BUTTON>
+               </div>
+               </div>
+
+            <div class="card">
+
+                <div class="image">
+                   <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-damier-drawstring-shorts-ready-to-wear--HLP31WIM1642_PM2_Front%20view.png?wid=656&hei=656">
+                </div>
+                <div class="title">
+                 <h1>Louis Vuitton <br>'DAMIER DRAWSTRING SHORTS'</h1>
+                </div>
+                <div class="des">
+                 <p>(BUY AS PAIR)</p>
+                 <button onclick="fun()">Buy</BUTTON>
+                  <button onclick="happy()">Add to cart</BUTTON>
+                  </div>
+                  </div>
+
+                <div class="card">
+
+                    <div class="image">
+                       <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-multicolor-watercolor-skater-shorts-ready-to-wear--HLP01WBT3MU1_PM2_Front%20view.png?wid=656&hei=656">
+                    </div>
+                    <div class="title">
+                     <h1>Louis Vuitton <br> 'MULTICOLOR WATERCOLOR SKATER SHORTS'</h1>
+                    </div>
+                    <div class="des">
+                     <p>(BUY AS PAIR)</p>
+                     <button onclick="fun()">Buy</BUTTON>
+                        <button onclick="happy()">Add to cart</BUTTON>
+                        </div>
+                        </div>
+
+                    <div class="card">
+
+                        <div class="image">
+                           <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-louis-vuitton-2054-padded-short-ready-to-wear--HMP05WI67900_PM2_Front%20view.png?wid=656&hei=656">
+                        </div>
+                        <div class="title">
+                         <h1>Louis Vuitton <br>'LOUIS VUITTON 2054 PADDED SHORTT'</h1>
+                        </div>
+                        <div class="des">
+                         <p>(BUY AS PAIR)</p>
+                         <button onclick="fun()">Buy</BUTTON>
+                           <button onclick="happy()">Add to cart</BUTTON>
+                           </div>
+                           </div>
+                        <div class="card">
+
+                            <div class="image">
+                               <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-flowers-pleated-shorts-ready-to-wear--HMP07WI97639_PM2_Front%20view.png?wid=656&hei=656">
+                            </div>
+                            <div class="title">
+                             <h1>Louis Vuitton <br> 'MONOGRAM FLOWERS PLEATED SHORTS'</h1>
+                            </div>
+                            <div class="des">
+                             <p>(BUY AS PAIR)</p>
+                             <button onclick="fun()">Buy</BUTTON>
+                              <button onclick="happy()">Add to cart</BUTTON>
+                              </div>
+                              </div>
+
+                            
+
+
+
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+      <title>alert box</title>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+      <script>
+         function fun()
+         {
+            swal("Thankyou for buying!", "You can now proceed for your payment.", "success");
+         }
+
+         function happy()
+         {
+            swal("Added to cart!", "Thankyou.", "success");
+         }
+
+         
+      </script>
+
+   </head>
+</html>

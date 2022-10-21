@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelries</title>
+    
+</head>
+<style>
+ html {
+  background-image: url(https://images.unsplash.com/photo-1614481327033-68e5df399653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMDQyNjAxNnx8ZW58MHx8fHw%3D&w=1000&q=80);
+  background-size: cover;
+  max-height: 100%;
+  height: 100%;
+}
+
+header {
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: var(--black);
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .navbar a {
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  margin-left: -3rem;
+   
+}
+header .navbar a:hover {
+  color: blue;
+}
+
+#menu-bar {
+  font-size: 3rem;
+  color: rgb(247, 243, 243);
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgb(247, 243, 243);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.btn{
+  width: 150px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid rgba(248, 232, 0, 0.795);
+  transition: background-color 1s;
+  font-weight: bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn:hover{
+  background-color: rgba(248, 203, 0, 0.61);
+}
+ 
+
+</style>
+<body>
+    
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="index.html#vendor"><button class="btn">HOME</button></a>
+   </nav>
+    </header>
+<br><br><br><br> <br><br>
+    <id class="clients">
+        <div class="contents">
+            <center>
+         
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black;
+ }
+
+ p{
+   color: black;
+ }
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.image:hover{
+    transform:scale(1.5) ;
+    z-index: 1;
+}
+.image{
+    transition: 1s;
+}
+
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://www.icebox.com/unsafe/640x0/icebox-jewelry.s3.amazonaws.com/products/869d089d542a308ae6c7d5a4dde8e713.jpg">
+</div>
+<div class="title">
+ <h1>Ice Box<br>'Rectangle Signet Ring 14K'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱605,835</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://www.icebox.com/unsafe/640x0/icebox-jewelry.s3.amazonaws.com/products/56c0551aa611be5090c7a66a0c97aa47.jpg">
+</div>
+<div class="title">
+ <h1>Ice Box <br> 'Broken Heart Signet Ring 14K'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱461,900</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://www.icebox.com/unsafe/640x0/icebox-jewelry.s3.amazonaws.com/products/f911a04dbd91f57da9f6e51f758f07b9.jpg">
+</div>
+<div class="title">
+ <h1>Ice Box <br> 'Jawless Skull Ring 14K'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱321,878</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://www.icebox.com/unsafe/640x0/icebox-jewelry.s3.amazonaws.com/products/971ea518b910e41788195191d5f05b73.jpg">
+</div>
+<div class="title">
+ <h1>ice Box<br> 'Five Row Multi Layer Band Ring 14K'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱605,835</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/diamond-bracelet-14k-white-gold-diamond-cuban-link-bracelets-9-mm-5-37-ctw-8639168839739_400x.jpg?v=1573767133">
+</div>
+<div class="title">
+ <h1>Avianne&Co<br>'14K WHITE GOLD DIAMOND CUBAN LINK BRACELETS 9'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱219,308</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/diamond-bracelet-14k-yellow-gold-diamond-cuban-link-bracelet-9-mm-5-37-ctw-8639169167419_400x.jpg?v=1573767133">
+</div>
+<div class="title">
+ <h1>Avianne&Co <br>'14K YELLOW GOLD DIAMOND CUBAN LINK'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱219,308</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/diamond-bracelet-diamond-cuban-link-bracelet-two-tone-gold-5-50-ctw-8639131156539_400x.jpg?v=1573767011">
+</div>
+<div class="title">
+ <h1>Avianne&Co <br>'DIAMOND CUBAN LINK BRACELET TWO TONE GOLD'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱288,000</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/bracelet-diamond-cuban-bracelet-in-14k-yellow-gold-17-67-ctw-17282833481787_400x.jpg?v=1610390275">
+</div>
+<div class="title">
+<h1>Avianne&Co <br>'DIAMOND CUBAN BRACELET IN 14K YELLOW GOLD'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱718,257</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<!--CUBAN CHAINS -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/diamond-chain-14k-yellow-gold-diamond-cuban-chain-11-67-ctw-111864-28505767870523_400x.jpg?v=1628031145">
+</div>
+<div class="title">
+ <h1>Avianne&Co <br>'14K YELLOW GOLD DIAMOND CUBAN CHAIN'</h1>
+</div>
+<div class="des">
+ <p>Retail: ₱914,991</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Set an appointment</BUTTON>
+   </div>
+   </div>
+<div class="card">
+
+    <div class="image">
+       <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/diamond-chain-14k-yellow-gold-mens-diamond-cuban-chain-20-33-ctw-8639269142587_400x.jpg?v=1573766981">
+    </div>
+    <div class="title">
+     <h1>Avianne&Co <br> '14K YELLOW GOLD MENS DIAMOND CUBAN CHAIN'</h1>
+    </div>
+    <div class="des">
+     <p>Retail: ₱1,330,482</p>
+     <button onclick="fun()">Buy</BUTTON>
+      <button onclick="happy()">Set an appointment</BUTTON>
+      </div>
+      </div>
+
+    <div class="card">
+
+        <div class="image">
+           <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/diamond-chain-14k-tri-color-gold-diamond-miami-cuban-chain-30-55-ctw-13-mm-8796238676027_400x.jpg?v=1573767177">
+        </div>
+        <div class="title">
+         <h1>Avianne&Co <br> '14K TRI-COLOR GOLD DIAMOND MIAMI CUBAN CHAIN'</h1>
+        </div>
+        <div class="des">
+         <p>Retail: ₱1,348,289</p>
+         <button onclick="fun()">Buy</BUTTON>
+            <button onclick="happy()">Set an appointment</BUTTON>
+            </div>
+            </div>
+
+        <div class="card">
+
+            <div class="image">
+               <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/diamond-chain-diamond-cuban-link-chain-in-14k-white-gold-17-inches-21-11-ctw-14-5-mm-8639081873467_400x.jpg?v=1573766986">
+            </div>
+            <div class="title">
+             <h1>Avianne&Co <br>'DIAMOND CUBAN LINK CHAIN IN 14K WHITE GOLD'</h1>
+            </div>
+            <div class="des">
+             <p>Retail: ₱1,608,488</p>
+             <button onclick="fun()">Buy</BUTTON>
+               <button onclick="happy()">Set an appointment</BUTTON>
+               </div>
+               </div>
+
+            <div class="card">
+
+                <div class="image">
+                   <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/pendant-diamond-lion-head-with-crown-pendant-in-10k-yellow-gold-1-ctw-88785-8639132893243_400x.jpg?v=1573767106">
+                </div>
+                <div class="title">
+                 <h1>Avianne&Co <br>'DIAMOND LION HEAD WITH CROWN PENDANT IN 10K YELLOW GOLD 1 '</h1>
+                </div>
+                <div class="des">
+                 <p>Retail: ₱49,756</p>
+                 <button onclick="fun()">Buy</BUTTON>
+                  <button onclick="happy()">Set an appointment</BUTTON>
+                  </div>
+                  </div>
+
+                <div class="card">
+
+                    <div class="image">
+                       <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/pendant-diamond-praying-hands-pendant-in-10k-yellow-gold-0-75-ctw-88795-8639134990395_400x.jpg?v=1573767116">
+                    </div>
+                    <div class="title">
+                     <h1>Avianne&Co <br> 'DIAMOND PRAYING HANDS PENDANT IN 10K YELLOW GOLD'</h1>
+                    </div>
+                    <div class="des">
+                     <p>Retail: ₱26,135</p>
+                     <button onclick="fun()">Buy</BUTTON>
+                        <button onclick="happy()">Set an appointment</BUTTON>
+                        </div>
+                        </div>
+
+                    <div class="card">
+
+                        <div class="image">
+                           <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/pendant-diamond-angel-pendant-in-10k-yellow-gold-0-29-ctw-dgp1642-8701497147451_400x.jpg?v=1573767159">
+                        </div>
+                        <div class="title">
+                         <h1>Avianne&Co <br>'DIAMOND ANGEL PENDANT IN 10K YELLOW GOLD'</h1>
+                        </div>
+                        <div class="des">
+                         <p>Retail: ₱20,897</p>
+                         <button onclick="fun()">Buy</BUTTON>
+                           <button onclick="happy()">Set an appointment</BUTTON>
+                           </div>
+                           </div>
+
+                        <div class="card">
+
+                            <div class="image">
+                               <img src="https://cdn.shopify.com/s/files/1/0131/6837/7915/products/pendant-diamond-star-in-10k-gold-4-ctw-17027017310267_400x.jpg?v=1604081062">
+                            </div>
+                            <div class="title">
+                             <h1>Avianne&Co <br> 'DIAMOND STAR PENDANT IN 10K GOLD'</h1>
+                            </div>
+                            <div class="des">
+                             <p>Retail: ₱34,024</p>
+                             <button onclick="fun()">Buy</BUTTON>
+                              <button onclick="happy()">Set an appointment</BUTTON>
+                              </div>
+                              </div>
+                            
+
+
+
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+      <title>alert box</title>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+      <script>
+         function fun()
+         {
+            swal("Thankyou for buying!", "You can now proceed for your payment.", "success");
+         }
+
+         function happy()
+         {
+            swal("Appointmet Approved!", "Please contact our shop!", "success");
+         }
+
+         
+      </script>
+
+   </head>
+</html>

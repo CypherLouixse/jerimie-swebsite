@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadgets</title>
+</head>
+<style>
+ html {
+  background-image: url(https://i.pinimg.com/originals/0f/65/ab/0f65abe9d5fdf9f77e8018614ed7f9cb.jpg);
+  background-size: cover;
+  max-height: 100%;
+  height: 100%;
+}
+
+header {
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: var(--black);
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .navbar a {
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  margin-left: -3rem;
+}
+header .navbar a:hover {
+  color: blue;
+}
+
+#menu-bar {
+  font-size: 3rem;
+  color: rgb(247, 243, 243);
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgb(247, 243, 243);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+.btn{
+  width: 150px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid rgba(248, 0, 236, 0.616);
+  transition: background-color 1s;
+  font-weight: bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn:hover{
+  background-color: rgba(248, 0, 236, 0.616);
+}
+ 
+</style>
+<body>
+    
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+          <a href="index.html#vendor"><button class="btn">HOME</button></a>
+   </nav>
+    </header>
+<br><br><br><br> <br><br>
+    <id class="clients">
+        <div class="contents">
+            <center>
+         
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+     border-radius: 25px;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+
+p{
+   font-size: 15px;
+   font-weight: bolder;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.image:hover{
+    transform:scale(1.5) ;
+    z-index: 1;
+}
+.image{
+    transition: 1s;
+}
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone11-black-select-2019?wid=470&hei=556&fmt=png-alpha&.v=1566956144418">
+</div>
+<div class="title">
+ <h1>Apple <br>'iPhone 11'</h1>
+</div>
+<div class="des">
+ <p>₱31,990</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-12-blue-select-2020?wid=470&hei=556&fmt=png-alpha&.v=1604343704000">
+</div>
+<div class="title">
+ <h1>Apple <br> 'iPhone 12'</h1>
+</div>
+<div class="des">
+ <p>₱44,990</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-green-select?wid=470&hei=556&fmt=png-alpha&.v=1645036275538">
+</div>
+<div class="title">
+ <h1>Apple <br> 'iPhone 13'</h1>
+</div>
+<div class="des">
+ <p>(₱50,990)</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-13-pro-max-blue-select?wid=470&hei=556&fmt=png-alpha&.v=1645552346295">
+</div>
+<div class="title">
+ <h1>Apple <br> 'iPhone 13 Pro Max'</h1>
+</div>
+<div class="des">
+ <p>₱70,990</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-mini-select-wifi-space-gray-202109?wid=470&hei=556&fmt=png-alpha&.v=1629840743000">
+</div>
+<div class="title">
+ <h1>Apple <br>'iPad mini'</h1>
+</div>
+<div class="des">
+ <p>₱38,990</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-2021-hero-space-wifi-select?wid=470&hei=556&fmt=png-alpha&.v=1631308881000">
+</div>
+<div class="title">
+ <h1>Apple <br>'iPad'</h1>
+</div>
+<div class="des">
+ <p>₱28,990</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-select-wifi-purple-202203?wid=470&hei=556&fmt=png-alpha&.v=1645066730601">
+</div>
+<div class="title">
+ <h1>Apple <br>'iPad Air'</h1>
+</div>
+<div class="des">
+ <p>₱44,990</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-pro-12-select-cell-spacegray-202104?wid=470&hei=556&fmt=p-jpg&qlt=95&.v=1617126613000">
+</div>
+<div class="title">
+<h1>Apple <br>'iPad Pro'</h1>
+</div>
+<div class="des">
+ <p>₱68,990</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp-spacegray-select-202011_GEO_PH?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1632948888000">
+</div>
+<div class="title">
+ <h1>Apple <br>'MacBook 13'</h1>
+</div>
+<div class="des">
+ <p>₱83,990.00</p>
+ <button onclick="fun()">Buy</BUTTON>
+   <button onclick="happy()">Add to Cart</BUTTON>
+   </div>
+   </div>
+<div class="card">
+
+    <div class="image">
+       <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp14-spacegray-select-202110?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1632788573000">
+    </div>
+    <div class="title">
+     <h1>Apple <br> 'MacBook 14'</h1>
+    </div>
+    <div class="des">
+     <p>₱146,990.00</p>
+     <button onclick="fun()">Buy</BUTTON>
+      <button onclick="happy()">Add to Cart</BUTTON>
+      </div>
+      </div>
+
+    <div class="card">
+
+        <div class="image">
+           <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16-spacegray-select-202110?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1632788574000">
+        </div>
+        <div class="title">
+         <h1>Apple <br> 'MacBook 16'</h1>
+        </div>
+        <div class="des">
+         <p>₱206,990.00</p>
+         <button onclick="fun()">Buy</BUTTON>
+            <button onclick="happy()">Add to Cart</BUTTON>
+            </div>
+            </div>
+
+        <div class="card">
+
+            <div class="image">
+               <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633027804000">
+            </div>
+            <div class="title">
+             <h1>Apple <br>'MacBook Air'</h1>
+            </div>
+            <div class="des">
+             <p>₱68,990.00</p>
+             <button onclick="fun()">Buy</BUTTON>
+               <button onclick="happy()">Add to Cart</BUTTON>
+               </div>
+               </div>
+
+            <div class="card">
+
+                <div class="image">
+                   <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MK2J3_AV3?wid=445&hei=445&fmt=jpeg&qlt=95&.v=1634663510000">
+                </div>
+                <div class="title">
+                 <h1>Apple<br>'Beats Fit Pro True Wireless Earbuds — Sage Gray'</h1>
+                </div>
+                <div class="des">
+                 <p>₱11,590</p>
+                 <button onclick="fun()">Buy</BUTTON>
+                  <button onclick="happy()">Add to Cart</BUTTON>
+                  </div>
+                  </div>
+                <div class="card">
+
+                    <div class="image">
+                       <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MJ4X3_AV4?wid=445&hei=445&fmt=jpeg&qlt=95&.v=1621876642000">
+                    </div>
+                    <div class="title">
+                     <h1>Apple <br> 'Beats Studio Buds – True Wireless Noise Cancelling Earphones – Black'</h1>
+                    </div>
+                    <div class="des">
+                     <p>₱8,190</p>
+                     <button onclick="fun()">Buy</BUTTON>
+                        <button onclick="happy()">Add to Cart</BUTTON>
+                        </div>
+                        </div>
+
+                    <div class="card">
+
+                        <div class="image">
+                           <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MX402?wid=445&hei=445&fmt=jpeg&qlt=95&.v=1580420165023">
+                        </div>
+                        <div class="title">
+                         <h1>Apple <br>'Beats Studio3 Wireless Over‑Ear Headphones - Blue'</h1>
+                        </div>
+                        <div class="des">
+                         <p>₱18,990)</p>
+                         <button onclick="fun()">Buy</BUTTON>
+                           <button onclick="happy()">Add to Cart</BUTTON>
+                           </div>
+                           </div>
+
+                        <div class="card">
+
+                            <div class="image">
+                               <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MX432?wid=445&hei=445&fmt=jpeg&qlt=95&.v=1570119317387">
+                            </div>
+                            <div class="title">
+                             <h1>Apple <br> 'Beats Solo3 Wireless Headphones - The Beats Icon Collection - Matte Black'</h1>
+                            </div>
+                            <div class="des">
+                             <p>₱11,990</p>
+                             <button onclick="fun()">Buy</BUTTON>
+                              <button onclick="happy()">Add to Cart</BUTTON>
+                              </div>
+                              </div>
+
+                            
+
+
+
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+      <title>alert box</title>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+      <script>
+         function fun()
+         {
+            swal("Thankyou for buying!", "You can now proceed for your payment.", "success");
+         }
+
+         function happy()
+         {
+            swal("Added to your Cart!", "Thankyou!", "success");
+         }
+
+         
+      </script>
+
+   </head>
+</html>

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino Dishes</title>
+    
+</head>
+<style>
+ html {
+  background-image: url(https://i.pinimg.com/originals/ca/3a/4d/ca3a4d1cf458e57e16ee2bfa6b1d1a6c.jpg);
+  max-height: 100%;
+  height: 100%;
+}
+
+header {
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: var(--black);
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .navbar a {
+  color: white;
+  font-size: 2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  margin-left: -3rem;
+   
+}
+header .navbar a:hover {
+  color: blue;
+}
+
+#menu-bar {
+  font-size: 3rem;
+  color: rgb(247, 243, 243);
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgb(247, 243, 243);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.btn{
+  width: 150px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid rgba(245, 202, 10, 0.911);
+  transition: background-color 1s;
+  font-weight: bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn:hover{
+  background-color: rgba(228, 180, 24, 0.918);
+}
+ 
+
+</style>
+<body>
+    
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="index.html#vendor"><button class="btn">HOME</button></a>
+   </nav>
+    </header>
+<br><br><br><br> <br><br>
+    <id class="clients">
+        <div class="contents">
+            <center>
+         
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.image:hover{
+    transform:scale(1.5) ;
+    z-index: 1;
+}
+.image{
+    transition: 1s;
+}
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://assets.epicurious.com/photos/5b8ffe14cf06db2dbe76e60e/1:1/w_1600%2Cc_limit/filipino-ground-pork-menudo-stew-recipe-090518.jpg">
+</div>
+<div class="title">
+ <h1>Ground Pork Menudo</h1>
+</div>
+<div class="des">
+ <p>Price: ₱450,00</p>
+   <button onclick="happy()">Reserve</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+ 
+
+<div class="card">
+
+<div class="image">
+   <img src="https://assets.epicurious.com/photos/5a7894d5c6aea21096d5582f/1:1/w_1600%2Cc_limit/Filipino-Cure-for-the-Common-Cold-31012018.jpg">
+</div>
+<div class="title">
+ <h1>Arroz Caldo <br>(Chicken Rice Porridge)</h1>
+</div>
+<div class="des">
+ <p>Price: ₱550,00</p>
+   <button onclick="happy()">Reserve</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://assets.epicurious.com/photos/57d1f0b6b96ba7195757bfac/1:1/w_1600%2Cc_limit/sinigang-pork-tamarind-stew-BA-090816.jpg">
+</div>
+<div class="title">
+ <h1>Pork, Vegetable, and Tamarind Stew</h1>
+</div>
+<div class="des">
+ <p>Price: ₱750,00</p>
+   <button onclick="happy()">Reserve</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://assets.epicurious.com/photos/5b9147b3f2a7a12d4192d0a5/1:1/w_1600%2Cc_limit/inihaw-bbq-chicken-skewers-090418.jpg">
+</div>
+<div class="title">
+ <h1>Chicken Barbecue <br>(Inihaw na Manok)</h1>
+</div>
+<div class="des">
+ <p>Price: ₱500,00</p>
+   <button onclick="happy()">Reserve</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://assets.epicurious.com/photos/5b969ed7a1e7b61fc8bf7c19/1:1/w_1600%2Cc_limit/filipino-chicken-adobo-recipe-091018.jpg">
+</div>
+<div class="title">
+ <h1>Filipino-Style Chicken Adobo</h1>
+</div>
+<div class="des">
+ <p>Price: ₱550,00</p>
+   <button onclick="happy()">Reserve</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://assets.epicurious.com/photos/5a3002b3f551951d181101f9/1:1/w_1600%2Cc_limit/embutido-filipino-meatloaf-recipe-BA-121217.jpg">
+</div>
+<div class="title">
+ <h1>Embutido</h1>
+</div>
+<div class="des">
+ <p>Price: ₱350,00</p>
+   <button onclick="happy()">Reserve</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="https://assets.epicurious.com/photos/5b8ffb8c00a6412d79e171f9/1:1/w_1600%2Cc_limit/chicken-hamonado-pineapple-sauce-090518.jpg">
+</div>
+<div class="title">
+ <h1>Chicken in Pineapple Sauce <br>(Chicken Hamonado)</h1>
+</div>
+<div class="des">
+ <p>Price: ₱450,00</p>
+   <button onclick="happy()">Add to Cart</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://assets.epicurious.com/photos/5b8ff9389d57c02d461d069a/1:1/w_1600%2Cc_limit/almondigas-meatball-noodles-soup-recipe-090518.jpg">
+</div>
+<div class="title">
+<h1>Meatballs and Noodle Soup </br> (Almondigas)</h1>
+</div>
+<div class="des">
+ <p>Price: ₱250,00</p>
+   <button onclick="happy()">Reserve</BUTTON>
+    </div>
+    </div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://assets.epicurious.com/photos/5a3002b35224bc28bb528a52/1:1/w_1600%2Cc_limit/bistek-with-onions-and-bay-leaves-recipe-BA-121217.jpg">
+</div>
+<div class="title">
+ <h1>Filipino-Style Beef Steak with Onion and Bay Leaves <br>(Bistek)</h1>
+</div>
+<div class="des">
+ <p>Price: ₱850,00</p>
+   <button onclick="happy()">Reserve</BUTTON>
+    </div>
+    </div>
+
+<div class="card">
+
+    <div class="image">
+       <img src="https://assets.epicurious.com/photos/57be059d082060f11022b547/1:1/w_1600%2Cc_limit/filipino-shrimp-achiote-082416.jpg">
+    </div>
+    <div class="title">
+     <h1>Shrimp in Achiote Oil</h1>
+    </div>
+    <div class="des">
+     <p>Price: ₱350,00</p>
+      <button onclick="happy()">Reserve</BUTTON>
+       </div>
+       </div>
+
+    <div class="card">
+
+        <div class="image">
+           <img src="https://assets.epicurious.com/photos/57d1f0bdc026b8825f89011d/1:1/w_1600%2Cc_limit/yellow-chicken-adobo-BA-090816.jpg">
+        </div>
+        <div class="title">
+         <h1>Yellow Chicken Adobo</h1>
+        </div>
+        <div class="des">
+         <p>Price: ₱550,00</p>
+            <button onclick="happy()">Reserve</BUTTON>
+             </div>
+             </div>
+
+        <div class="card">
+
+            <div class="image">
+               <img src="https://assets.epicurious.com/photos/5b8eb62f64455e2da315abf4/1:1/w_1600%2Cc_limit/pancit-bihon-recipe-090418.jpg">
+            </div>
+            <div class="title">
+             <h1>Stir-Fried Rice Noodles with Shrimp and Adobo <br>(Pansit Bihon Guisado)</h1>
+            </div>
+            <div class="des">
+             <p>Price: ₱450,00</p>
+               <button onclick="happy()">Reserve</BUTTON>
+                </div>
+                </div>
+
+            <div class="card">
+
+                <div class="image">
+                   <img src="https://assets.epicurious.com/photos/5b8eb10364455e2da315abf2/1:1/w_1600%2Cc_limit/shrimp-and-salmon-sinigang-recipe-090418.jpg">
+                </div>
+                <div class="title">
+                 <h1>Seafood Sinigang <br>(Sour and Savory Seafood Soup)</h1>
+                </div>
+                <div class="des">
+                 <p>Price: ₱550,00</p>
+                  <button onclick="happy()">Reserve</BUTTON>
+                   </div>
+                   </div>
+
+                <div class="card">
+
+                    <div class="image">
+                       <img src="https://assets.epicurious.com/photos/58c6be247c80d64acc70ad21/1:1/w_1600%2Cc_limit/kare-kare-with-beans-bok-choy-and-eggplant-BA-031317.jpg">
+                    </div>
+                    <div class="title">
+                     <h1>Kare-Kare with Beans, Baby Bok Choy, and Eggplant</h1>
+                    </div>
+                    <div class="des">
+                     <p>Price: ₱650,00</p>
+                     <button onclick="happy()">Reserve</BUTTON>
+                      </div>
+                      </div>
+
+                    <div class="card">
+
+                        <div class="image">
+                           <img src="https://assets.epicurious.com/photos/5a3002b3ff2e7d346fdd7cfb/1:1/w_1600%2Cc_limit/roast-pork-belly-with-chile-vinegar-recipe-BA-121217.jpg">
+                        </div>
+                        <div class="title">
+                         <h1>Filipino-Style Roast Pork Belly with Chile Vinegar</h1>
+                        </div>
+                        <div class="des">
+                         <p>Price: ₱550,00</p>
+                           <button onclick="happy()">Reserve</BUTTON>
+                            </div>
+                            </div>
+
+                        <div class="card">
+
+                            <div class="image">
+                               <img src="https://assets.epicurious.com/photos/5b8ea870f2a7a12d4192d077/1:1/w_1600%2Cc_limit/squid-sisig-recipe-090418.jpg">
+                            </div>
+                            <div class="title">
+                             <h1>Spicy Sizzling Squid <br> (Sisig na Pusit)</h1>
+                            </div>
+                            <div class="des">
+                             <p>Price: ₱450,00</p>
+                            <button onclick="happy()">Reserve</BUTTON>
+                            </div>
+                            </div>
+
+                            <div class="card">
+
+                              <div class="image">
+                                 <img src="https://assets.epicurious.com/photos/5609a57162fa7a9917c258c4/1:1/w_1600%2Cc_limit/352989_hires.jpg">
+                              </div>
+                              <div class="title">
+                               <h1>Fresh Filipino Spring Rolls<br> (Lumpia Sariwa)</h1>
+                              </div>
+                              <div class="des">
+                               <p>Price: ₱450,00</p>
+                              <button onclick="happy()">Reserve</BUTTON>
+                              </div>
+                              </div>
+
+                              <div class="card">
+
+                                <div class="image">
+                                   <img src="https://assets.epicurious.com/photos/57d1f0b6c026b8825f89011c/1:1/w_1600%2Cc_limit/shredded-sweet-potato-carrot-fritters-BA-090816.jpg">
+                                </div>
+                                <div class="title">
+                                 <h1>Shredded Sweet Potato and Carrot Fritters (Ukoy)</h1>
+                                </div>
+                                <div class="des">
+                                 <p>Price: ₱400,00</p>
+                                <button onclick="happy()">Reserve</BUTTON>
+                                </div>
+                                </div>
+
+                                <div class="card">
+
+                                  <div class="image">
+                                     <img src="https://assets.epicurious.com/photos/579f96a620ada1484ddf3038/1:1/w_1600%2Cc_limit/filipino-adobo-style-chicken.jpg">
+                                  </div>
+                                  <div class="title">
+                                   <h1>Filipino "Adobo"-Style Chicken</h1>
+                                  </div>
+                                  <div class="des">
+                                   <p>Price: ₱550,00</p>
+                                  <button onclick="happy()">Reserve</BUTTON>
+                                  </div>
+                                  </div>
+
+                                  <div class="card">
+
+                                    <div class="image">
+                                       <img src="https://assets.epicurious.com/photos/5b8ead1a64455e2da315abf0/1:1/w_1600%2Cc_limit/spaghetti-sauce-chicken-afritada-recipe-090418.jpg">
+                                    </div>
+                                    <div class="title">
+                                     <h1>Spaghetti Sauce Chicken Afritada</h1>
+                                    </div>
+                                    <div class="des">
+                                     <p>Price: ₱550,00</p>
+                                    <button onclick="happy()">Reserve</BUTTON>
+                                    </div>
+                                    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+      <title>alert box</title>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+      <script>
+          
+         function happy()
+         {
+            swal("Reserved!", "Please contact our shop, Thankyou!", "success");
+         }
+
+         
+      </script>
+
+   </head>
+</html>
